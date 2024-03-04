@@ -21,13 +21,14 @@ margin: 0;
 }
 
 .mpvie-container select {
-
     background-color: #fff;
     border: 0;
     border-radius: 5px;
     font-size: 14px;
     margin-left: 10px;
     padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
     appearance: none;
 }
 

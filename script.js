@@ -1,10 +1,10 @@
 const container = document.querySelector('.container');
-const seats = document.querySelectorAll('.row .seats:not(.occupied)');
+const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('count');
 const total = document.getElementById('total');
 const movieSelect = document.getElementById('movie');
 
-const ticketValue = +movieSelect.value;
+let ticketPrice = +movieSelect.value;
 
 //update count and total
 function updateSelectedCount(){
